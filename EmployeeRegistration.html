@@ -1,0 +1,38 @@
+
+<html>
+<head>
+  
+  <title>Employee Registration Form</title>
+</head>
+<body>
+  <h1>Employee Registration</h1>
+  <form action="/submit_employee" method="post">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+    
+    <label for="department">Department:</label>
+    <select id="department" name="department">
+      <option value="tester">Tester</option>
+      <option value="developer">Developer</option>
+      <option value="sales">sales</option>
+      <option value="marketing">Marketing</option>
+     
+    </select><br><br>
+    
+   
+    
+    <label for="salary">Salary:</label>
+    <input type="number" id="salary" name="salary" required><br><br>
+    
+   
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
